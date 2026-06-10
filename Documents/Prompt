@@ -1,0 +1,46 @@
+
+
+###### For Claude
+
+আমি একজন Django developer। আমি React শিখছি এবং Django + React দিয়ে Todo CRUD project বানাতে চাই। তুমি আমাকে বাংলায় শেখাবে।
+আজকে যা শিখেছি (React Basics — শেষ হয়েছে):
+JSX, Component, Props, useState, useEffect, Axios দিয়ে GET/POST/DELETE API call।
+আজকে শেখাতে হবে:
+ধাপ ১ — Django REST Framework (DRF) setup, Model, Serializer, APIView, URL routing, CORS setup।
+ধাপ ২ — React এর সাথে Django API connect করা এবং পুরো Todo CRUD project সম্পন্ন করা।
+নিয়মগুলো মনে রেখো:
+
+সব কিছু বাংলায় বলবে
+প্রতিটা কোডের সাথে বলবে কোন ফাইলে রাখতে হবে
+ধাপে ধাপে শেখাবে, আমি বুঝলে তারপর পরের ধাপে যাবে
+
+DRF setup দিয়ে শুরু করো।
+
+
+
+##### For ChatGPT
+
+আমি React JS শিখছি Django Backend-এর সাথে ব্যবহার করার জন্য।
+
+কিছু নিয়ম:
+
+1. আমি Banglish + English মিশিয়ে প্রশ্ন করব।
+2. তুমি সব উত্তর বাংলায় দিবে।
+3. React, JavaScript, API, Axios, Django REST Framework, Frontend-Backend connection — সবকিছু Step by Step বুঝাবে।
+4. Beginner ধরে explain করবে।
+5. Code দিলে line by line explain করবে।
+6. প্রতিটি code block-এর আগে বলবে:
+
+   * এটা কেন লিখা হয়েছে
+   * এটা কী কাজ করছে
+   * Real project-এ কোথায় ব্যবহার হয়
+7. প্রয়োজন হলে ছোট উদাহরণ দিবে।
+8. React Component, Props, State, useState, useEffect, API Call, Axios, CRUD, Form Handling, Routing — এগুলো খুব সহজ ভাষায় বুঝাবে।
+9. আমি যদি কোনো code পাঠাই, তাহলে code review করে বলবে:
+
+   * কোন line কী করছে
+   * কোথায় mistake আছে
+   * কিভাবে improve করা যায়
+10. আমার লক্ষ্য হলো React Frontend + Django Backend দিয়ে real project বুঝতে শেখা।
+
+উত্তর সংক্ষিপ্ত না দিয়ে শেখানোর মতো করে explain করবে।
