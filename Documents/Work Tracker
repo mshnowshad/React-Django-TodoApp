@@ -1,92 +1,171 @@
+===============================
+     PROJECT WORK TRACKER
+================================
+
+Last Updated : 10-06-2026
+
+---
+
+## PROJECT NAME : Django + React Todo CRUD Project
+
+
+
+=================================
+
+## [✔] COMPLETE TASKS
+
+1. React কী এবং কেন?                                    | Done: 08-06-2026
+   └─ Frontend library, Django-এর সাথে পার্থক্য
+
+2. JSX syntax                                            | Done: 08-06-2026
+   └─ JS-এর ভেতরে HTML লেখার পদ্ধতি
+
+3. Component                                             | Done: 08-06-2026
+   └─ Reusable UI building block তৈরি
+
+4. Props                                                 | Done: 08-06-2026
+   └─ Parent থেকে Child-এ data পাঠানো
+
+5. useState                                              | Done: 08-06-2026
+   └─ Component-এর ভেতরে data store ও update
+
+6. useEffect                                             | Done: 08-06-2026
+   └─ Component load হলে API call করা
+
+7. Axios দিয়ে API call                                  | Done: 08-06-2026
+   └─ GET, POST, DELETE — fake API দিয়ে practice
+
+8. Django REST Framework (DRF) setup                    | Done: 09-06-2026
+   └─ Install, settings, app configuration
+
+9. Model তৈরি                                            | Done: 09-06-2026
+   └─ Todo model, migration, database table
+
+10. Serializer                                            | Done: 09-06-2026
+    └─ Model ↔ JSON conversion, validation
+
+11. APIView                                               | Done: 10-06-2026
+    └─ Class-based API তৈরি
+
+12. URL Routing                                           | Done: 10-06-2026
+    └─ GET, POST, PUT, DELETE endpoint mapping
+
+13. React + Django Connection                             | Done: 10-06-2026
+    └─ Axios instance, real API communication
+
+14. Todo CRUD সম্পূর্ণ                                     | Done: 10-06-2026
+    └─ Create, Read, Update, Delete
+
+15. React Component Structure                             | Done: 10-06-2026
+    └─ App, TodoForm, TodoList, TodoItem
+
+16. Parent ↔ Child Communication                          | Done: 10-06-2026
+    └─ Props এবং Callback Functions
+
+17. Controlled Form                                       | Done: 10-06-2026
+    └─ Input state management
+
+18. React State Sync with Backend                         | Done: 10-06-2026
+    └─ API response অনুযায়ী UI update
+
+
+
+
+
+
+## [✘] INCOMPLETE TASKS
+
+1. CORS setup                                            | Deadline: 11-06-2026
+   └─ React যেন Django API access করতে পারে
+
+2. Error Handling                                        | Deadline: 11-06-2026
+   └─ try/catch, loading, error state
+
+3. Project Structure & Clean Code                        | Deadline: 11-06-2026
+   └─ Folder organization
+
+4. React Router                                          | Deadline: 12-06-2026
+   └─ Multi-page application
+
+5. Django ViewSet & Router                               | Deadline: 12-06-2026
+   └─ APIView-এর সহজ version
+
+6. Environment Variables (.env)                          | Deadline: 12-06-2026
+   └─ API URL secure management
+
+7. JWT Authentication                                    | Deadline: 13-06-2026
+   └─ Login, Logout, Protected API
+
+8. Deployment                                            | Deadline: 14-06-2026
+   └─ React + Django live server
+
+
+
+
+
+
+## [⟳] IN PROGRESS
+
+1. React + DRF Architecture বোঝা                         | Started: 10-06-2026
+   └─ Request → API → Serializer → DB → React flow
+
+2. Real Project Thinking                                 | Started: 10-06-2026
+   └─ CRUD project থেকে production pattern শেখা
+
+---
+
+
 ================================================
-        PROJECT WORK TRACKER
-================================================
-Last Updated : 08-06-2026
 
-------------------------------------------------
-PROJECT NAME : Django + React Todo CRUD Project
-------------------------------------------------
+## SUMMARY
 
-[✔] COMPLETE TASKS
-------------------------------------------------
- 1. React কী এবং কেন?                                    | Done: 08-06-2026
-    └─ Frontend library, Django-এর সাথে পার্থক্য
-
- 2. JSX syntax                                            | Done: 08-06-2026
-    └─ JS-এর ভেতরে HTML লেখার পদ্ধতি
-
- 3. Component                                             | Done: 08-06-2026
-    └─ Reusable UI building block তৈরি
-
- 4. Props                                                 | Done: 08-06-2026
-    └─ Parent থেকে Child-এ data পাঠানো
-
- 5. useState                                              | Done: 08-06-2026
-    └─ Component-এর ভেতরে data store ও update
-
- 6. useEffect                                             | Done: 08-06-2026
-    └─ Component load হলে API call করা
-
- 7. Axios দিয়ে API call                                   | Done: 08-06-2026
-    └─ GET, POST, DELETE — fake API দিয়ে practice
-
-
-
-
-
-
-
-
-[✘] INCOMPLETE TASKS
-------------------------------------------------
- 1. Django REST Framework (DRF) setup                    | Deadline: 09-06-2026
-    └─ Install, settings, app তৈরি
-
- 2. Model ও Serializer                                   | Deadline: 09-06-2026
-    └─ Todo model, data validate
-
- 3. APIView ও URL routing                                | Deadline: 09-06-2026
-    └─ GET, POST, PUT, DELETE endpoint
-
- 4. CORS setup                                           | Deadline: 09-06-2026
-    └─ React যেন Django API access করতে পারে
-
- 5. React + Django connect                               | Deadline: 10-06-2026
-    └─ Axios দিয়ে real Django API call
-
- 6. Todo CRUD সম্পূর্ণ                                      | Deadline: 10-06-2026
-    └─ Add, View, Edit, Delete — পুরো project
-
- 7. Project structure ও Clean code                      | Deadline: 10-06-2026
-    └─ Folder organize করা
-
-
-
-
-
-
-
-
-[⟳] IN PROGRESS
-------------------------------------------------
- 1. Django REST Framework শেখা                           | Started: 09-06-2026
-    └─ পরের session-এ শুরু হবে
-
-
-
-------------------------------------------------
-SUMMARY
-------------------------------------------------
- Total Tasks    : 14
- Complete       : 7
- Incomplete     : 7
- In Progress    : 0
- Done %         : 50%
-
+Total Tasks    : 28
+Complete       : 18
+Incomplete     : 8
+In Progress    : 2
+Done %         : 64%
 
 ================================================
-NOTE:
- - React Basics সম্পূর্ণ শেষ হয়েছে (08-06-2026)
- - পরের session-এ DRF দিয়ে শুরু করতে হবে
- - Prompt ready আছে নতুন conversation-এর জন্য
+CURRENT SKILL STATUS
+====================
+
+React Basics                 ✔
+Component                    ✔
+Props                        ✔
+State                        ✔
+useEffect                    ✔
+Axios                        ✔
+CRUD                         ✔
+
+DRF Setup                    ✔
+Model                        ✔
+Serializer                   ✔
+APIView                      ✔
+URL Routing                  ✔
+
+React ↔ Django API           ✔
+
+Next Target:
+→ Error Handling
+→ CORS
+→ React Router
+→ ViewSet + Router
+→ JWT Authentication
+
 ================================================
+NOTE
+====
+
+* React Basics সম্পূর্ণ
+* DRF Basics সম্পূর্ণ
+* Todo CRUD Project সম্পূর্ণ
+* React Frontend ↔ Django Backend Connection সম্পূর্ণ
+* এখন Production Level Concepts শুরু করার সময়
+
+Next Session Priority:
+
+1. CORS
+2. Error Handling
+3. ViewSet + Router
+4. React Router
+   ================================================
