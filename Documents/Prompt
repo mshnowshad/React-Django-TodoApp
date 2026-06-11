@@ -1,8 +1,4 @@
-
-
 ### For Claude ==================================
-
-
 
 আমি একজন Django developer। আমি React শিখছি Django Backend-এর সাথে ব্যবহার করার জন্য।
 
@@ -17,25 +13,11 @@
 ✔ URL Routing
 ✔ React ↔ Django API Connection
 ✔ Todo CRUD Project (Create, Read, Update, Delete)
+✔ CORS Configuration (django-cors-headers, CORS_ALLOWED_ORIGINS)
+✔ Error Handling (try/catch, loading state, error state, API error handling)
+✔ React Router (BrowserRouter, Routes, Route, Link, useNavigate, useParams, Dynamic Route)
 
 আজকে যা শিখতে চাই:
-
-ধাপ ১ — CORS Configuration এবং Error Handling
-
-* django-cors-headers
-* try/catch
-* loading state
-* error state
-* API error handling
-
-ধাপ ২ — React Router
-
-* BrowserRouter
-* Routes
-* Route
-* Link
-* useNavigate
-* Dynamic Route
 
 ধাপ ৩ — Django ViewSet ও Router
 
@@ -58,11 +40,23 @@
 * Protected Route
 * Protected API
 
+আমার current project structure:
+
+React Side:
+- src/api/axios.js → axios instance, baseURL: http://localhost:8000/api
+- src/pages/Home.jsx → Home page, useNavigate
+- src/pages/TodoPage.jsx → Todo CRUD, loading/error state
+- src/pages/TodoDetail.jsx → Single todo, useParams
+- src/pages/NotFound.jsx → 404 page
+- src/components/TodoList.jsx → todos map করে TodoItem render করে
+- src/components/TodoForm.jsx → নতুন todo add করে
+- src/main.jsx → BrowserRouter দিয়ে App wrap করা
+- src/App.jsx → Routes সেটআপ, Link navigation
+
 নিয়মগুলো:
 
 1. সব কিছু বাংলায় বলবে।
 2. প্রতিটা কোডের আগে বলবে:
-
    * এটা কেন লিখা হয়েছে
    * এটা কী কাজ করছে
    * Real Project-এ কোথায় ব্যবহার হয়
@@ -72,7 +66,7 @@
 6. Beginner থেকে Intermediate Level ধরে শেখাবে।
 7. React + Django Real Project Perspective থেকে শেখাবে।
 
-CORS Configuration দিয়ে শুরু করো।
+ধাপ ৩ — Django ViewSet ও Router দিয়ে শুরু করো।
 
 
 
@@ -80,7 +74,8 @@ CORS Configuration দিয়ে শুরু করো।
 
 
 
-##### For ChatGPT ==============================================================
+
+##### For AI Assistant ===============================
 
 আমি React JS শিখছি Django Backend-এর সাথে ব্যবহার করার জন্য।
 
@@ -99,39 +94,54 @@ CORS Configuration দিয়ে শুরু করো।
 ✔ URL Routing
 ✔ React ↔ Django Connection
 ✔ Todo CRUD Project (CRUD Complete)
+✔ CORS Configuration (django-cors-headers, CORS_ALLOWED_ORIGINS)
+✔ Error Handling (try/catch, loading state, error state, API error handling)
+✔ React Router (BrowserRouter, Routes, Route, Link, useNavigate, useParams, Dynamic Route)
+
+আমার current project structure:
+
+React Side:
+- src/api/axios.js → axios instance, baseURL: http://localhost:8000/api
+- src/pages/Home.jsx → Home page, useNavigate
+- src/pages/TodoPage.jsx → Todo CRUD, loading/error state
+- src/pages/TodoDetail.jsx → Single todo, useParams
+- src/pages/NotFound.jsx → 404 page
+- src/components/TodoList.jsx → todos map করে TodoItem render করে
+- src/components/TodoForm.jsx → নতুন todo add করে
+- src/main.jsx → BrowserRouter দিয়ে App wrap করা
+- src/App.jsx → Routes সেটআপ, Link navigation
 
 এখন আমি Production-Level React + Django Concepts শিখতে চাই।
 
-কিছু নিয়ম:
+কিছু নিয়ম:
 
-1. আমি Banglish + English মিশিয়ে প্রশ্ন করব।
-2. তুমি সব উত্তর বাংলায় দিবে।
+1. আমি Banglish + English মিশিয়ে প্রশ্ন করব।
+2. তুমি সব উত্তর বাংলায় দিবে।
 3. React, JavaScript, Axios, Django REST Framework, Authentication, Routing, Deployment — সবকিছু Step by Step বুঝাবে।
 4. Beginner → Intermediate → Production Level ধরে শেখাবে।
 5. Code দিলে line by line explain করবে।
 6. প্রতিটি code block-এর আগে বলবে:
-
-   * এটা কেন লিখা হয়েছে
+   * এটা কেন লিখা হয়েছে
    * এটা কী কাজ করছে
-   * Real Project-এ কোথায় ব্যবহার হয়
-7. প্রয়োজন হলে ছোট উদাহরণ দিবে।
-8. React Router, ViewSet, Router, JWT Authentication, Protected Route, Error Handling, Environment Variables, Deployment — খুব সহজ ভাষায় বুঝাবে।
+   * Real Project-এ কোথায় ব্যবহার হয়
+7. প্রতিটা কোডের সাথে বলবে কোন ফাইলে রাখতে হবে।
+8. প্রয়োজন হলে ছোট উদাহরণ দিবে।
 9. আমি যদি কোনো code পাঠাই, তাহলে code review করে বলবে:
-
    * কোন line কী করছে
-   * কোথায় mistake আছে
-   * কিভাবে improve করা যায়
-10. আমার লক্ষ্য হলো React Frontend + Django Backend দিয়ে Real Project (যেমন Admin Dashboard, Inventory, ERP, ArNexBD) বুঝতে শেখা।
-11. উত্তর সংক্ষিপ্ত না দিয়ে শেখানোর মতো করে explain করবে।
-12. Folder Structure এবং Data Flow Diagram দিয়ে বুঝাবে।
-13. React → Axios → Django View → Serializer → Model → Database → Response → React Flow সবসময় মাথায় রেখে explain করবে।
+   * কোথায় mistake আছে
+   * কিভাবে improve করা যায়
+10. আমার লক্ষ্য হলো React Frontend + Django Backend দিয়ে Real Project (যেমন Admin Dashboard, Inventory, ERP) বানানো শেখা।
+11. উত্তর সংক্ষিপ্ত না দিয়ে শেখানোর মতো করে explain করবে।
+12. Folder Structure এবং Data Flow বুঝিয়ে দিবে যেখানে দরকার।
+13. React → Axios → Django View → Serializer → Model → Database → Response → React Flow সবসময় মাথায় রেখে explain করবে।
+14. আমি বুঝেছি বলার আগে পরের ধাপে যাবে না।
 
 পরবর্তী শেখার Roadmap:
 
-1. CORS Configuration
-2. Error Handling
-3. React Router
-4. Django ViewSet & Router
+1. ✔ CORS Configuration
+2. ✔ Error Handling
+3. ✔ React Router
+4. Django ViewSet & Router  ← এখান থেকে শুরু করবে
 5. Environment Variables (.env)
 6. JWT Authentication
 7. Protected Routes

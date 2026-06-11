@@ -39,10 +39,13 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
 
 
-    'rest_framework',
-    'corsheaders',
-    'todos',
+    'rest_framework', # Added Django REST Framework
+    'corsheaders', # Added CORS headers app
+    'todos', # Added the todos app
 ]
+
+
+
 
 MIDDLEWARE = [
     'corsheaders.middleware.CorsMiddleware',  # Added CORS middleware
@@ -62,7 +65,7 @@ MIDDLEWARE = [
 CORS_ALLOW_ALL_ORIGINS = True  # For development only
 CORS_ALLOW_CREDENTIALS = True
 
-CORS_ALLOWED_ORIGINS = [
+CORS_ALLOWED_ORIGINS = [ # Allow requests from the frontend development server
     "http://localhost:5173",
 ]
 

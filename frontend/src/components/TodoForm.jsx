@@ -18,7 +18,7 @@ function TodoForm({ onAdd }) {
                 value={title}
                 onChange={(e) => setTitle(e.target.value)}
             />
-            <button type="submit">➕ Add Todo</button>
+            <button type="submit">+Add Todo</button>
         </form>
     );
 }
