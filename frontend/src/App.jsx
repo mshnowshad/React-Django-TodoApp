@@ -1,5 +1,6 @@
 import './App.css';
-import { Routes, Route, Link } from 'react-router-dom';  // ← নতুন
+import { Routes, Route, Link } from 'react-router-dom';  // for routing
+import { Toaster } from 'react-hot-toast'; // ← for toast notifications
 import Home from './pages/Home';
 import TodoPage from './components/TodoPage';
 import TodoDetail from './components/TodoDetail';
@@ -8,6 +9,7 @@ import NotFound from './pages/NotFound';
 function App() {
     return (
         <div>
+            <Toaster /> {/* ← toast notifications দেখাবে */}
             {/* Navigation — Link ব্যবহার করো, <a> না */}
             <nav>
                 <Link to="/">Home</Link>

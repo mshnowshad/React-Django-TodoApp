@@ -19,20 +19,17 @@
 
 আজকে যা শিখতে চাই:
 
-ধাপ ৩ — Django ViewSet ও Router
-
-* APIView vs ViewSet
-* ModelViewSet
-* DefaultRouter
-* কেন Real Project-এ ViewSet বেশি ব্যবহার হয়
 
 ধাপ ৪ — Environment Variables
 
 * .env
 * API URL management
 
+
+
 ধাপ ৫ — JWT Authentication
 
+* Register
 * Login
 * Logout
 * Access Token
@@ -43,15 +40,34 @@
 আমার current project structure:
 
 React Side:
-- src/api/axios.js → axios instance, baseURL: http://localhost:8000/api
-- src/pages/Home.jsx → Home page, useNavigate
-- src/pages/TodoPage.jsx → Todo CRUD, loading/error state
-- src/pages/TodoDetail.jsx → Single todo, useParams
-- src/pages/NotFound.jsx → 404 page
-- src/components/TodoList.jsx → todos map করে TodoItem render করে
-- src/components/TodoForm.jsx → নতুন todo add করে
-- src/main.jsx → BrowserRouter দিয়ে App wrap করা
-- src/App.jsx → Routes সেটআপ, Link navigation
++---src
+    ª   api.js
+    ª   App.css
+    ª   App.jsx
+    ª   index.css
+    ª   main.jsx
+    ª   
+    +---api
+    ª       axios.js
+
+    +---components
+    ª       TodoForm.jsx
+    ª       TodoItem.jsx
+    ª       TodoList.jsx
+    ª       TodoDetail.jsx
+    ª       TodoPage.jsx
+
+
+    +---pages
+    ª       Home.jsx
+            NotFount.jsx
+    ª       
+    +---assets
+    ª       hero.png
+    ª       react.svg
+    ª       vite.svg
+    ª       
+
 
 নিয়মগুলো:
 
@@ -66,7 +82,13 @@ React Side:
 6. Beginner থেকে Intermediate Level ধরে শেখাবে।
 7. React + Django Real Project Perspective থেকে শেখাবে।
 
-ধাপ ৩ — Django ViewSet ও Router দিয়ে শুরু করো।
+
+
+
+ধাপ ৪ — Environment Variables
+
+* .env
+* API URL management
 
 
 
@@ -101,15 +123,34 @@ React Side:
 আমার current project structure:
 
 React Side:
-- src/api/axios.js → axios instance, baseURL: http://localhost:8000/api
-- src/pages/Home.jsx → Home page, useNavigate
-- src/pages/TodoPage.jsx → Todo CRUD, loading/error state
-- src/pages/TodoDetail.jsx → Single todo, useParams
-- src/pages/NotFound.jsx → 404 page
-- src/components/TodoList.jsx → todos map করে TodoItem render করে
-- src/components/TodoForm.jsx → নতুন todo add করে
-- src/main.jsx → BrowserRouter দিয়ে App wrap করা
-- src/App.jsx → Routes সেটআপ, Link navigation
++---src
+    ª   api.js
+    ª   App.css
+    ª   App.jsx
+    ª   index.css
+    ª   main.jsx
+    ª   
+    +---api
+    ª       axios.js
+
+    +---components
+    ª       TodoForm.jsx
+    ª       TodoItem.jsx
+    ª       TodoList.jsx
+    ª       TodoDetail.jsx
+    ª       TodoPage.jsx
+
+
+    +---pages
+    ª       Home.jsx
+            NotFount.jsx
+    ª       
+    +---assets
+    ª       hero.png
+    ª       react.svg
+    ª       vite.svg
+    ª       
+
 
 এখন আমি Production-Level React + Django Concepts শিখতে চাই।
 
@@ -138,15 +179,10 @@ React Side:
 
 পরবর্তী শেখার Roadmap:
 
-1. ✔ CORS Configuration
-2. ✔ Error Handling
-3. ✔ React Router
-4. Django ViewSet & Router  ← এখান থেকে শুরু করবে
-5. Environment Variables (.env)
-6. JWT Authentication
-7. Protected Routes
-8. Role-Based Access
-9. Project Structure
-10. Deployment
+
+1. Environment Variables (.env)
+2. JWT Authentication
+3. Protected Routes
+4. Deployment in any place for free and fast
 
 আমি যে Topic জিজ্ঞেস করব, সেটা Step by Step শেখানো শুরু করো।
