@@ -16,14 +16,12 @@
 ✔ CORS Configuration (django-cors-headers, CORS_ALLOWED_ORIGINS)
 ✔ Error Handling (try/catch, loading state, error state, API error handling)
 ✔ React Router (BrowserRouter, Routes, Route, Link, useNavigate, useParams, Dynamic Route)
+✔ Environment Variables
+✔ Toast Notification
+
 
 আজকে যা শিখতে চাই:
 
-
-ধাপ ৪ — Environment Variables
-
-* .env
-* API URL management
 
 
 
@@ -85,10 +83,9 @@ React Side:
 
 
 
-ধাপ ৪ — Environment Variables
+ধাপ ৫ — JWT Authentication
 
-* .env
-* API URL management
+* Register
 
 
 

@@ -47,6 +47,15 @@ INSTALLED_APPS = [
 
 
 
+#DRF-কে (Django REST Framework) বলছি: "Authentication করার সময় JWT Token ব্যবহার করো।"
+REST_FRAMEWORK = {
+    'DEFAULT_AUTHENTICATION_CLASSES': (
+        'rest_framework_simplejwt.authentication.JWTAuthentication',
+    ),
+}
+
+
+
 MIDDLEWARE = [
     'corsheaders.middleware.CorsMiddleware',  # Added CORS middleware
 
@@ -61,7 +70,7 @@ MIDDLEWARE = [
 ]
 
 
-# Add CORS settings
+# for 
 CORS_ALLOW_ALL_ORIGINS = True  # For development only
 CORS_ALLOW_CREDENTIALS = True
 
